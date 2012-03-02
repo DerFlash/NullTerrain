@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.me.elizabethmyers</groupId>
   <artifactId>NullTerrain</artifactId>
-  <version>0.4.1</version>
+  <version>0.5</version>
   <name>NullTerrain</name>
   <url>http://elizabethmyers.me.uk</url>
   <repositories>
@@ -11,16 +11,14 @@
      <url>http://mvn2.sk89q.com/repo</url>
     </repository>
   </repositories>
-  <dependencies>
-    <dependency>
-      <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <type>jar</type>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.bukkit</groupId>
+  		<artifactId>bukkit</artifactId>
+  		<version>1.1-R5-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
